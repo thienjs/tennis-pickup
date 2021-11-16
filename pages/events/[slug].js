@@ -1,9 +1,10 @@
 import { useRouter } from "next/router"
+import Layout from "../../components/layout"
 
 export default function EventsPage() {
     return (
-        <div>
+        <Layout>
             <h1>Events</h1>
-        </div>
+        </Layout>
     )
 }
